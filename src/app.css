@@ -23,7 +23,7 @@ body {
     height: 50vw;
 }
 
-#hint_on_correct {
+#hint_on_correct , #num{
     color: grey;
 }
 
@@ -96,5 +96,6 @@ body {
 }
 
 #quiz-question {
-    font-size: larger;
+
+    font-size: 2.5vh;
 }

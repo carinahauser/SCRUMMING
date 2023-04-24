@@ -13,6 +13,21 @@
   $: correct = [];
   $: evaluate = true
 
+
+  let last_question = 0;
+
+
+  function randomNext(){
+    last_question = current_question_number;
+    clearClasses();
+    current_question_number = Math.floor(Math.random() * data.questions.length);
+    current_question = data.questions[current_question_number];
+    answer_id = 0;
+    correct_ones = getAmount_of_correct()
+    correct = [];
+    evaluate = true;
+  }
+
   function validateQuestion(){
     // for the amount of answers in the current question check, if the answer is correct
     for (let i = 0; i < current_question.answers.length; i++){
@@ -53,10 +68,13 @@
   }
 
   function previousQuestion(){
-    current_question_number = current_question_number - 1;
-    current_question = data[current_question_number];
+    clearClasses();
+    current_question_number = last_question;
+    current_question = data.questions[current_question_number];
     answer_id = 0;
+    correct_ones = getAmount_of_correct()
     correct = [];
+    evaluate = true;
   }
 
   function getAmount_of_correct(){
@@ -64,7 +82,7 @@
 
     let amount = 0;
     for (let i = 0; i < current_question.answers.length; i++){
-      if (current_question.answers[i].correct){
+      if (current_question.answers[i].correct === "True"){
         amount = amount + 1;
       }
     }
@@ -80,7 +98,6 @@
     correct_ones = getAmount_of_correct()
     correct = [];
     evaluate = true;
-    alert("next question")
   }
 
   function doubt(){
@@ -94,7 +111,6 @@
   }
 
   function getId(next){
-
     if (next){
       answer_id = answer_id + 1;
     }
@@ -116,7 +132,8 @@
 
     <div class="quiz_wrapper card-body h-100">
       <div class = "w-75 align-content-center align-self-center">
-        <div id="quiz-question " class="w-75 align-content-center align-self-center"> {current_question.question} </div>
+        <div id = "num" class="is-align-items-self-end">Question Number: {current_question_number} </div>
+        <div id="quiz-question" class="w-100 align-content-center align-self-center"> {current_question.question} </div>
         <div id="hint_on_correct" class="w-75 align-content-center align-self-center">{correct_ones} answers are correct. </div>
       </div>
 
@@ -143,7 +160,7 @@
     <div id="buttons_bottom" class="quiz-control w-75 align-self-center align-self-end">
       <div class="row align-self-end">
         <div class="col align-self-end">
-          <button class="btn-primary align-self-end btn w-100">Previous </button>
+          <button class="btn-primary align-self-end btn w-100" on:click={previousQuestion}>Previous </button>
         </div>
         <div class="col">
           <!-- space for more :) -->
@@ -152,7 +169,7 @@
           {#if evaluate}
             <button class="btn-primary align-self-end btn w-100"  on:click={validateQuestion} >Evaluate </button>
           {:else }
-            <button class="btn-primary align-self-end btn w-100" on:click={nextQuestion}>Next </button>
+            <button class="btn-primary align-self-end btn w-100" on:click={randomNext}>Next </button>
           {/if}
 
         </div>
