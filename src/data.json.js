@@ -1917,6 +1917,133 @@ export const data ={
                 }
             ],
             "id": 87
-        }
+        },
+        {
+            "question": "From the following answers, choose one which is not a prioritisation technique.",
+            "answers": [
+                {
+                    "Answer": "Kano Analysis",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Product Backlog ordering",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Planning Poker",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "User Story Mapping",
+                    "correct": "False"
+                },
+            ],
+            "id": 88
+        },
+        {
+            "question": "According to the Scrum Guide, the Scrum is based on ….... (Select all correct answers)",
+            "answers": [
+                {
+                    "Answer": "Self-organization",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Lean Thinking",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "Transparency",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Empiricism",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "Complexity",
+                    "correct": "False"
+                }
+            ],
+            "id": 89
+        },
+        {
+            "question": "What is the purpose of empiricism in Scrum?",
+            "answers": [
+                {
+                    "Answer": "To help people perform inspections & adaptations upon transparency of the work being undertaken and results being produced",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "To help discover a way of working that is continuously adaptable to everybody’s actual context and current circumstances.",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "To adjust, adapt, change and gain flexibility.",
+                    "correct": "False"
+                },
+
+            ],
+            "id": 90
+        },
+
+        {
+            "question": "Choose one best answer. Scrum is …",
+            "answers": [
+                {
+                    "Answer": "not founded on empiricism",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "not a software development process",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "not founded on lean thinking",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "not a framework",
+                    "correct": "False"
+                },
+
+            ],
+            "id": 91
+        },
+        {
+            "question": "Scrum is software development methodology",
+            "answers": [
+                {
+                    "Answer": "True",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "False",
+                    "correct": "True"
+                },
+            ],
+            "id": 92
+        },
+        {
+            "question": "Which of the following is not a pillar of Scrum?",
+            "answers": [
+                {
+                    "Answer": "Transparency",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Adaptation",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Empiricism",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "Inspection",
+                    "correct": "True"
+                },
+            ],
+            "id": 93
+        },
     ]
 }

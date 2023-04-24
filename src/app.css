@@ -1,8 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('fluid.jpg');
+    background-size: cover;
+
+}
 
 
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+#card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 70vw;
+    height: 50vw;
+}
 
-* {
-    margin: 0;
-    padding: 0;
+#hint_on_correct {
+    color: grey;
+}
+
+
+#buttons_bottom {
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+
+}
+
+.whatever{
+
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+}
+
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
+
+.answer_number {
+    height: 5vh ;
+    width: 5vw;
+    background-color: #0D6EFD;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+
+}
+
+.answer_text {
+    width: 100%;
+    background-color: #b7b7b7;
+    border-radius: 0 10px 10px 0;
+    padding-left: 10px;
+    color: black;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#checkboxes input[type=checkbox]{
+    display: none;
+}
+
+
+#checkboxes input[type=checkbox]:checked + .answer_text {
+    background-color: white;
+}
+
+.correct {
+    background-color: green !important;
+    color: black !important;
+}
+
+.incorrect {
+    background-color: red !important;
+
+}
+
+#quiz-question {
+    font-size: larger;
 }
