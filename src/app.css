@@ -9,7 +9,7 @@ body {
 #app {
     height: 100vh;
     width: 100vw;
-    background-image: url('./fluid.jpg');
+    background-image: url('../fluid.jpg');
     background-size: cover;
 
 }
