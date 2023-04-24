@@ -1,4 +1,4 @@
-export const data = {
+export const data ={
     "questions": [
         {
             "question": "In which meetings the Key Stakeholders are allowed to participate?",
@@ -19,7 +19,8 @@ export const data = {
                     "Answer": "The Sprint Review",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 1
         },
         {
             "question": "What part of the capacity of the Development Team does Product Backlog refinement usually consume?",
@@ -40,7 +41,8 @@ export const data = {
                     "Answer": "The Development Team is not authorized for Product Backlog refinement",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 2
         },
         {
             "question": "Scrum is not a process or technique. True or False?",
@@ -53,7 +55,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 3
         },
         {
             "question": "Who creates the increment?",
@@ -78,7 +81,8 @@ export const data = {
                     "Answer": "The Development Team and The Product Owner",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 4
         },
         {
             "question": "How frequently should scrum users inspect Scrum artifacts and progress toward a Sprint Goal?",
@@ -99,7 +103,8 @@ export const data = {
                     "Answer": "As frequently as possible",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 5
         },
         {
             "question": "Could the Product Owner and the Scrum Master be a part of the Development Team?",
@@ -112,7 +117,8 @@ export const data = {
                     "Answer": "No",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 6
         },
         {
             "question": "What happens during the Sprint? Select three answers.",
@@ -137,7 +143,8 @@ export const data = {
                     "Answer": "Sprint scope is defined at the Sprint Planning and cannot be changed",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 7
         },
         {
             "question": "Who has the authority to cancel the Sprint?",
@@ -162,7 +169,8 @@ export const data = {
                     "Answer": "The Product Owner",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 8
         },
         {
             "question": "What are the Scrum Artifacts? Select all applicable items.",
@@ -187,7 +195,8 @@ export const data = {
                     "Answer": "The list of removed impediments",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 9
         },
         {
             "question": "It is a good practice\u00a0to have at least two Product Owners on big projects.",
@@ -200,7 +209,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 10
         },
         {
             "question": "What does \u00a0the word \u201cdevelopment\u201d mean in the context of Scrum? Select the best option.",
@@ -225,7 +235,8 @@ export const data = {
                     "Answer": "Complex work that can include all the suggested options and even more",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 11
         },
         {
             "question": "Where can Scrum be used? Check all the applicable items.",
@@ -254,7 +265,8 @@ export const data = {
                     "Answer": "Development of almost everything we use in our daily lives as individuals and societies",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 12
         },
         {
             "question": "Who is responsible for crafting the Sprint Goal at the Sprint Planning?",
@@ -279,7 +291,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 13
         },
         {
             "question": "It is a good practice\u00a0to have from time to time\u00a0a special technical Sprint that consists only of tasks\u00a0removing the technical debt without implementing any new functionality.",
@@ -292,7 +305,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 14
         },
         {
             "question": "Other people than the Scrum Team can attend the Sprint Planning\u00a0in order to provide technical or domain advice.",
@@ -305,7 +319,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 15
         },
         {
             "question": "What is Scrum?",
@@ -322,7 +337,8 @@ export const data = {
                     "Answer": "A sequential design process, used in software development processes, in which progress is seen as flowing steadily downwards.",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 16
         },
         {
             "question": "What does Cone of Uncertainty show?",
@@ -343,7 +359,8 @@ export const data = {
                     "Answer": "How much work remains till the end of the Sprint",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 17
         },
         {
             "question": "Who is allowed to change the Sprint Backlog during the Sprint?",
@@ -368,7 +385,8 @@ export const data = {
                     "Answer": "The Scrum Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 18
         },
         {
             "question": "What is the time-box for the Daily Scrum?",
@@ -389,7 +407,8 @@ export const data = {
                     "Answer": "Not limited. Every Development Team member should have enough time to answer the three Main Questions.",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 19
         },
         {
             "question": "Who participates in the Sprint Planning? Select three.",
@@ -414,7 +433,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 20
         },
         {
             "question": "Is it allowed\u00a0to skip the Daily Scrum if there is nothing interesting to talk about?",
@@ -427,7 +447,8 @@ export const data = {
                     "Answer": "Yes",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 21
         },
         {
             "question": "What is the essence of Scrum? Select the most appropriate option.",
@@ -448,7 +469,8 @@ export const data = {
                     "Answer": "The Scrum Master and the Product Owner",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 22
         },
         {
             "question": "Who is responsible for monitoring progress toward high-level goals?",
@@ -477,7 +499,8 @@ export const data = {
                     "Answer": "The Scrum Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 23
         },
         {
             "question": "If an item in the Sprint Backlog cannot be finished by the end of the Sprint (it turned out there is a lot more work to do than was estimated), the Sprint is cancelled.",
@@ -490,7 +513,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 24
         },
         {
             "question": "Check all the formal opportunities to inspect and adapt.",
@@ -515,7 +539,8 @@ export const data = {
                     "Answer": "The Sprint Retrospective",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 25
         },
         {
             "question": "Select the five Scrum Values.",
@@ -552,7 +577,8 @@ export const data = {
                     "Answer": "Effectiveness",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 26
         },
         {
             "question": "The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team.",
@@ -565,7 +591,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 27
         },
         {
             "question": "All Development Teams working on the same Product should use the same Product Backlog.",
@@ -578,7 +605,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 28
         },
         {
             "question": "What should be taken into account for\u00a0the Definition of \u201cDone\u201d? Select the two most appropriate items.",
@@ -603,7 +631,8 @@ export const data = {
                     "Answer": "Definition of \"Done\" of other Scrum Teams working on other products",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 29
         },
         {
             "question": "Who is responsible for promoting and supporting Scrum? Select the best choice.",
@@ -628,7 +657,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 30
         },
         {
             "question": "The Scrum Team consists of",
@@ -649,7 +679,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 31
         },
         {
             "question": "Scrum is founded on",
@@ -670,7 +701,8 @@ export const data = {
                     "Answer": "Empiricism",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 32
         },
         {
             "question": "What are the characteristics of a Development Team? Select three most appropriate choices.",
@@ -695,7 +727,8 @@ export const data = {
                     "Answer": "Having at least one test engineer in the Development Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 33
         },
         {
             "question": "What is the input to the Sprint Planning? Select four.",
@@ -724,7 +757,8 @@ export const data = {
                     "Answer": "The Product Backlog",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 34
         },
         {
             "question": "What is the order of items in the Product Backlog?",
@@ -745,7 +779,8 @@ export const data = {
                     "Answer": "The less clear items at the top",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 35
         },
         {
             "question": "Only the Product Owner and the Development Team participate in the Sprint Planning. There is nothing to do for the Scrum Master.",
@@ -758,7 +793,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 36
         },
         {
             "question": "What could be a\u00a0source of requirements for any changes to be made to the product?",
@@ -775,7 +811,8 @@ export const data = {
                     "Answer": "The Key Stakeholders",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 37
         },
         {
             "question": "It is normal\u00a0to have a \u201chardening\u201d Sprint to remove all technical debt and prepare the Product for upcoming release.",
@@ -788,7 +825,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 38
         },
         {
             "question": "What does Product Backlog management include? Select three most applicable items.",
@@ -813,7 +851,8 @@ export const data = {
                     "Answer": "Ordering the items in the Product Backlog to best achieve goals and missions",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 39
         },
         {
             "question": "Who is responsible for managing the Product Backlog?",
@@ -834,7 +873,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 40
         },
         {
             "question": "How does Definition of \u201cDone\u201d help the Scrum Team? Select three most applicable items.",
@@ -859,7 +899,8 @@ export const data = {
                     "Answer": "DoD helps in inspection and adaptation",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 41
         },
         {
             "question": "Who is responsible for all estimates in the Product Backlog?",
@@ -892,7 +933,8 @@ export const data = {
                     "Answer": "The Product owner and the Development Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 42
         },
         {
             "question": "The Daily Scrum always should take exactly 15 minutes. For example, if your team managed doing it in 5 minutes, you should spend 10 more minutes on some useful team activity like\u00a0Product Backlog refinement, but not more.",
@@ -905,7 +947,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 43
         },
         {
             "question": "What are the time-boxes for the Sprint Review and the Sprint Retrospective?",
@@ -926,7 +969,8 @@ export const data = {
                     "Answer": "4 and 3 hours respectively",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 44
         },
         {
             "question": "The Development Team should be able to explain to the Product Owner and Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment.",
@@ -939,7 +983,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 45
         },
         {
             "question": "If an inspector determines that one or more aspects of a process deviate outside acceptable limits, when must an adjustment be made?",
@@ -960,7 +1005,8 @@ export const data = {
                     "Answer": "After Scrum Master approval",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 46
         },
         {
             "question": "What are the three pillars that uphold Scrum?",
@@ -989,7 +1035,8 @@ export const data = {
                     "Answer": "Adaptation",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 47
         },
         {
             "question": "Could the Sprint Planning be finished if only work planned for the first days of the Sprint is decomposed to units of one day or less?",
@@ -1002,7 +1049,8 @@ export const data = {
                     "Answer": "No, all items in the Sprint Backlog should be decomposed to units of one day or less by the end of the Sprint Planning",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 48
         },
         {
             "question": "The purpose of the Sprint Retrospective is to (select three):",
@@ -1027,7 +1075,8 @@ export const data = {
                     "Answer": "Inspect how the last Sprint went with regards to people, relationships, process, and tools",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 49
         },
         {
             "question": "What is the result of the Sprint Review?",
@@ -1048,7 +1097,8 @@ export const data = {
                     "Answer": "A revised Product Backlog that defines the probable Product Backlog items for the next Sprint",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 50
         },
         {
             "question": "What comprises Scrum (select four)?",
@@ -1077,7 +1127,8 @@ export const data = {
                     "Answer": "Artifacts",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 51
         },
         {
             "question": "Scrum does not allow additional meetings that are not defined in Scrum.",
@@ -1090,7 +1141,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 52
         },
         {
             "question": "Imagine the following situation. At the Sprint Retrospective meeting the Scrum Team identified some improvements that can be done. What should the Scrum Team do? Select the best option.",
@@ -1111,7 +1163,8 @@ export const data = {
                     "Answer": "Make sure the Sprint Backlog for the next Sprint includes at least one high priority process improvement.",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 53
         },
         {
             "question": "Who is responsible for tracking\u00a0the total work remaining in the Sprint Backlog\u00a0to project the likelihood of achieving the Sprint Goal?",
@@ -1136,7 +1189,8 @@ export const data = {
                     "Answer": "The Development Team",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 54
         },
         {
             "question": "What are the two essential features a Scrum Team should possess?",
@@ -1157,7 +1211,8 @@ export const data = {
                     "Answer": "It should have all competencies needed to accomplish the work without depending on others not part of the team",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 55
         },
         {
             "question": "All the Scrum Teams\u00a0working on the same product should have the same Sprint length.",
@@ -1170,7 +1225,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 56
         },
         {
             "question": "Who is responsible for the Product Backlog?",
@@ -1199,7 +1255,8 @@ export const data = {
                     "Answer": "The Scrum Master and The Development Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 57
         },
         {
             "question": "What are the three questions the Scrum Guide gives as an example that can be used\u00a0at the Daily Scrum?",
@@ -1224,7 +1281,8 @@ export const data = {
                     "Answer": "Do I have complete understanding of the Sprint Backlog item I am working on?",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 58
         },
         {
             "question": "What is the Sprint Backlog?",
@@ -1245,7 +1303,8 @@ export const data = {
                     "Answer": "The plan for delivering Product Backlog items",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 59
         },
         {
             "question": "What is the Sprint Retrospective?",
@@ -1266,7 +1325,8 @@ export const data = {
                     "Answer": "It is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 60
         },
         {
             "question": "Who is allowed to participate in the Daily Scrum?",
@@ -1287,7 +1347,8 @@ export const data = {
                     "Answer": "The Key Stakeholders",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 61
         },
         {
             "question": "What are the three main qualities the team model in Scrum is designed to optimize?",
@@ -1316,7 +1377,8 @@ export const data = {
                     "Answer": "Creativity",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 62
         },
         {
             "question": "Who is responsible for coping with incomplete artifact transparency?",
@@ -1337,7 +1399,8 @@ export const data = {
                     "Answer": "The Scrum Master",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 63
         },
         {
             "question": "The Sprint Backlog is created at the Sprint Planning. It is prohibited to add new work into the Sprint Backlog later by the Development Team.",
@@ -1350,7 +1413,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 64
         },
         {
             "question": "What provides guidance to the Development Team on why it is building the Increment?",
@@ -1371,7 +1435,8 @@ export const data = {
                     "Answer": "The Sprint Backlog",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 65
         },
         {
             "question": "How long should the Sprint Planning be?",
@@ -1392,7 +1457,8 @@ export const data = {
                     "Answer": "Until all the Items in the Sprint Backlog are decomposed to units of one day or less",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 66
         },
         {
             "question": "What are the questions the Sprint Planning answers? Select two.",
@@ -1417,7 +1483,8 @@ export const data = {
                     "Answer": "What new technologies could be used to speed up the Development Team velocity?",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 67
         },
         {
             "question": "What are Product Backlog features? Select three.",
@@ -1442,7 +1509,8 @@ export const data = {
                     "Answer": "It is dynamic",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 68
         },
         {
             "question": "Scrum recommends\u00a0using\u00a0only those Scrum components and rules which suit most for a particular project.",
@@ -1455,7 +1523,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 69
         },
         {
             "question": "What does Burn-down Chart show?",
@@ -1476,7 +1545,8 @@ export const data = {
                     "Answer": "Hierarchy of tasks that comprise a project",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 70
         },
         {
             "question": "The Daily Scrum time-box depends on the size of the Development team.",
@@ -1489,7 +1559,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 71
         },
         {
             "question": "Definition of \u201cDone\u201d is created during the first Sprint and remains unchanged until the Product release.",
@@ -1502,7 +1573,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 72
         },
         {
             "question": "The structure of the Daily Scrum is well-defined and constant. Every team member should answer the three main questions:What did I do yesterday?What will I do today?Do I see any impediment?",
@@ -1515,7 +1587,8 @@ export const data = {
                     "Answer": "True",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 73
         },
         {
             "question": "What belongs solely to the Development Team?",
@@ -1536,7 +1609,8 @@ export const data = {
                     "Answer": "The Definition of Done",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 74
         },
         {
             "question": "Who is responsible for creation of the Definition of \u201cDone\u201d?",
@@ -1557,7 +1631,8 @@ export const data = {
                     "Answer": "The Scrum Team",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 75
         },
         {
             "question": "Definition of Done can be reviewed and adapted during each Sprint Retrospective. True or False?",
@@ -1570,7 +1645,8 @@ export const data = {
                     "Answer": "False",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 76
         },
         {
             "question": "Select\u00a0the two meetings in which people outside the Scrum Team are allowed to participate.",
@@ -1591,7 +1667,8 @@ export const data = {
                     "Answer": "The Daily Scrum",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 77
         },
         {
             "question": "Who is allowed to make changes in\u00a0the Product Backlog? Select two options.",
@@ -1616,7 +1693,8 @@ export const data = {
                     "Answer": "Anyone",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 78
         },
         {
             "question": "What are the three most applicable characteristics of the Product Owner?",
@@ -1641,7 +1719,8 @@ export const data = {
                     "Answer": "Facilitator of Scrum events",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 79
         },
         {
             "question": "How does the Scrum Master serve the Development Team? Select the three most appropriate answers.",
@@ -1666,7 +1745,8 @@ export const data = {
                     "Answer": "Helping the Development Team as the team leader",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 80
         },
         {
             "question": "How does the Scrum Master help the Product Owner? Select the three most appropriate answers.",
@@ -1691,7 +1771,8 @@ export const data = {
                     "Answer": "Introducing cutting edge development practices",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 81
         },
         {
             "question": "What is the Increment?",
@@ -1712,7 +1793,8 @@ export const data = {
                     "Answer": "All \"Done\" items in the Sprint Backlog",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 82
         },
         {
             "question": "How does the Scrum Master serve the Organization? Select the three most appropriate answers.",
@@ -1737,7 +1819,8 @@ export const data = {
                     "Answer": "Leading and coaching the organization in its Scrum adoption",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 83
         },
         {
             "question": "What happens when a Sprint is cancelled? Select three.",
@@ -1762,7 +1845,8 @@ export const data = {
                     "Answer": "At the Sprint Retrospective the Scrum Master determines who from the Development Team is responsible for cancelling the Sprint",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 84
         },
         {
             "question": "The Scrum Master does the following regarding the Daily Scrum (select all applicable variants):",
@@ -1783,7 +1867,8 @@ export const data = {
                     "Answer": "Ensures that the Development Team has the meeting",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 85
         },
         {
             "question": "Imagine you are a Scrum Master in a small Organization that tries to adopt Scrum. There are 10 developers and the\u00a0Product Owner. How can they be divided into teams? Choose all applicable options:",
@@ -1804,7 +1889,8 @@ export const data = {
                     "Answer": "3 teams of 4, 3 and 3 people (each team is cross-functional)",
                     "correct": "True"
                 }
-            ]
+            ],
+            "id": 86
         },
         {
             "question": "Who participates in the Sprint Review? Select all applicable variants.",
@@ -1829,7 +1915,8 @@ export const data = {
                     "Answer": "The Organization CEO",
                     "correct": "False"
                 }
-            ]
+            ],
+            "id": 87
         }
     ]
 }
