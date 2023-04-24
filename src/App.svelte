@@ -61,6 +61,7 @@
 
   function getAmount_of_correct(){
     // get amount of answers where "correct": true for current_question
+
     let amount = 0;
     for (let i = 0; i < current_question.answers.length; i++){
       if (current_question.answers[i].correct){
@@ -79,6 +80,7 @@
     correct_ones = getAmount_of_correct()
     correct = [];
     evaluate = true;
+    alert("next question")
   }
 
   function doubt(){
@@ -92,6 +94,7 @@
   }
 
   function getId(next){
+
     if (next){
       answer_id = answer_id + 1;
     }
@@ -108,12 +111,12 @@
 <div class=" h-100 d-flex justify-content-center align-items-center" id="background">
   <div class="card bg-dark text-white" id="card">
     <div class ="card-header">
-      <h3>SCRUM TESTING</h3>
+      <h3>Quiz</h3>
     </div>
 
     <div class="quiz_wrapper card-body h-100">
       <div class = "w-75 align-content-center align-self-center">
-        <div id="quiz-question" class="w-75 align-content-center align-self-center"> {current_question.question} </div>
+        <div id="quiz-question " class="w-75 align-content-center align-self-center"> {current_question.question} </div>
         <div id="hint_on_correct" class="w-75 align-content-center align-self-center">{correct_ones} answers are correct. </div>
       </div>
 
