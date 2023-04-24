@@ -7,7 +7,7 @@
   let main_data = data;
 
   $: current_question_number = 0;
-  $: answer_id = 0;
+  let answer_id = 0;
   $: current_question = data.questions[current_question_number];
   $: correct_ones = 0;
   $: correct = [];
@@ -17,16 +17,6 @@
   let last_question = 0;
 
 
-  function randomNext(){
-    last_question = current_question_number;
-    clearClasses();
-    current_question_number = Math.floor(Math.random() * data.questions.length);
-    current_question = data.questions[current_question_number];
-    answer_id = 0;
-    correct_ones = getAmount_of_correct()
-    correct = [];
-    evaluate = true;
-  }
 
   function validateQuestion(){
     // for the amount of answers in the current question check, if the answer is correct
@@ -67,14 +57,29 @@
     correct_ones = getAmount_of_correct();
   }
 
-  function previousQuestion(){
-    clearClasses();
-    current_question_number = last_question;
-    current_question = data.questions[current_question_number];
+  function randomNext(){
+    last_question = current_question_number;
     answer_id = 0;
+
+    clearClasses();
+    current_question_number = Math.floor(Math.random() * data.questions.length);
+    current_question = data.questions[current_question_number];
+
     correct_ones = getAmount_of_correct()
     correct = [];
     evaluate = true;
+  }
+
+
+  function previousQuestion(){
+    clearClasses();
+    answer_id = 0;
+    current_question_number = last_question;
+    current_question = data.questions[current_question_number];
+    correct_ones = getAmount_of_correct()
+    correct = [];
+    evaluate = true;
+    alert("You can't go back in this quiz. You can only go forward. Sorry :(")
   }
 
   function getAmount_of_correct(){
@@ -88,26 +93,6 @@
     }
     return amount;
 
-  }
-
-  function nextQuestion(){
-    clearClasses();
-    current_question_number = current_question_number + 1;
-    current_question = data.questions[current_question_number];
-    answer_id = 0;
-    correct_ones = getAmount_of_correct()
-    correct = [];
-    evaluate = true;
-  }
-
-  function doubt(){
-    // add "doubt": "true" to the current question and add it to the doubt.txt
-    let temp = current_question;
-    temp.doubt = true;
-
-    // add the question to the doubt.txt
-    let doubt_file = new File([""], "doubt.txt", {type: "text/plain"});
-    doubt_file.append(temp);
   }
 
   function getId(next){
@@ -136,10 +121,9 @@
         <div id="quiz-question" class="w-100 align-content-center align-self-center"> {current_question.question} </div>
         <div id="hint_on_correct" class="w-75 align-content-center align-self-center">{correct_ones} answers are correct. </div>
       </div>
-
+      {#key current_question }
       <div id="quiz-answers" class="d-flex flex-column justify-content-center align-items-center">
         <div id="checkboxes" class="w-75 align-content-center align-self-center">
-
           {#each current_question.answers as answer}
             <div class="whatever ">
               <div class="answer_number text-center">{getId(true)}</div>
@@ -147,14 +131,9 @@
               <label class="Answer answer_text" id="qes{getId()}" for="r{getId()}"> {answer.Answer}</label>
             </div>
           {/each}
-
         </div>
-
-
-
       </div>
-
-
+        {/key}
     </div>
 
     <div id="buttons_bottom" class="quiz-control w-75 align-self-center align-self-end">
@@ -167,9 +146,9 @@
         </div>
         <div class="col">
           {#if evaluate}
-            <button class="btn-primary align-self-end btn w-100"  on:click={validateQuestion} >Evaluate </button>
+            <button class="btn-primary align-self-end btn w-100"  on:click|once={validateQuestion} >Evaluate </button>
           {:else }
-            <button class="btn-primary align-self-end btn w-100" on:click={randomNext}>Next </button>
+            <button class="btn-primary align-self-end btn w-100" on:click|once={randomNext}>Next </button>
           {/if}
 
         </div>
