@@ -1,7 +1,7 @@
 export const data ={
     "questions": [
         {
-            "question": "In which meetings the Key Stakeholders are allowed to participate?",
+            "question": "In which meetings are the Key Stakeholders allowed to participate in?",
             "answers": [
                 {
                     "Answer": "The Sprint Planning",
@@ -2045,5 +2045,268 @@ export const data ={
             ],
             "id": 93
         },
+        {
+            "question": "What is the purpose of empiricism in Scrum? Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "To help people perform inspections & adaptations upon transparency of the work being undertaken and results being produced",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "To help discover a way of working that is continuously adaptable to everybody’s actual context and current circumstances.",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "To adjust, adapt, change and gain flexibility.",
+                    "correct": "False"
+                }
+            ],
+            "id": 94
+        },
+        {
+            "question": "Scrum is a software development methodology. Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "True",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "False",
+                    "correct": "True"
+                }
+            ],
+            "id": 95
+        },
+        {
+            "question": "Choose one best answer. Scrum is ….... Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "not founded on empiricism",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "not a software development process",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "not founded on lean thinking",
+                    "correct": "False"
+                },
+                {
+                    "Answer": "not a framework",
+                    "correct": "False"
+                }
+            ],
+            "id": 96
+        },
+        {
+            "question": "Which of the following is not a pillar of Scrum? Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "Adaptation",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "Inspection",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "Transparency",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "Empiricism",
+                    "correct": "true"
+                }
+            ],
+            "id": 97
+        },
+        {
+            "question": "What type of process control is Scrum? Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "Empirical",
+                    "correct": "true"
+                },
+                {
+                    "Answer": "Traditional",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "Adaptive",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "Modern",
+                    "correct": "false"
+                }
+            ],
+            "id": 98
+        },
+        {
+            "question": "According to the new version of the Scrum Guide, the Scrum Team are a self-management team. It means the Scrum Team can't be self-organizing. Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "True",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "False",
+                    "correct": "true"
+                }
+            ],
+            "id": 99
+        },
+        {
+            "question": "Scrum should be tailored for the project. Choose only ONE best answer.",
+            "answers": [
+                {
+                    "Answer": "False",
+                    "correct": "True"
+                },
+                {
+                    "Answer": "True",
+                    "correct": "False"
+                }
+            ],
+            "id": 100
+        },
+        // Question 1
+        {
+            "question": "What is the main reason why Scrum Teams should be small in size?",
+            "answers": [
+                {
+                    "Answer": "To minimize complexity and maximize communication and productivity",
+                    "correct": "true"
+                },
+                {
+                    "Answer": "To ensure that the team can be managed effectively",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To make it easier to split the work into smaller tasks",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To limit the amount of work that can be done during each Sprint",
+                    "correct": "false"
+                }
+            ],
+            "id": 101
+        },
+
+// Question 2
+        {
+            "question": "What is the primary responsibility of the Development Team in Scrum?",
+            "answers": [
+                {
+                    "Answer": "To create a releasable Increment of the product every Sprint",
+                    "correct": "true"
+                },
+                {
+                    "Answer": "To attend the Daily Scrum and provide updates on their progress",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To work on items from the Product Backlog as assigned by the Product Owner",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To ensure that the Scrum Team adheres to the Scrum framework",
+                    "correct": "false"
+                }
+            ],
+            "id": 102
+        },
+
+// Question 3
+        {
+            "question": "What is the purpose of the Sprint Review?",
+            "answers": [
+                {
+                    "Answer": "To inspect the Increment and adapt the Product Backlog if needed",
+                    "correct": "true"
+                },
+                {
+                    "Answer": "To plan the next Sprint and create a Sprint Goal",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To review the progress of the Development Team during the Sprint",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "To conduct a retrospective and identify areas for improvement",
+                    "correct": "false"
+                }
+            ],
+            "id": 103
+        },
+
+// Question 4
+        {
+            "question": "What is the time-box for the Daily Scrum in Scrum?",
+            "answers": [
+                {
+                    "Answer": "15 minutes",
+                    "correct": "true"
+                },
+                {
+                    "Answer": "30 minutes",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "1 hour",
+                    "correct": "false"
+                },
+                {
+                    "Answer": "The time-box may vary depending on the size of the Development Team",
+                    "correct": "false"
+                }
+            ],
+            "id": 104
+        },
+        {
+            "id": 105,
+            "question": "Some teams establish a new baseline at the start of each project. A baselined Product Backlog is called:",
+            "answers": [
+                {
+                    "answer": "Product vision",
+                    "correct": "False"
+                },
+                {
+                    "answer": "Release plan",
+                    "correct": "false"
+                },
+                {
+                    "answer": "Product Backlog is not baselined in Scrum",
+                    "correct": "true"
+                },
+                {
+                    "answer": "Sprint Backlog",
+                    "correct": "false"
+                },
+                {
+                    "answer": "“Ready” Product Backlog",
+                    "correct": "false"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ]
 }

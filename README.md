@@ -21,3 +21,6 @@ Please keep the following in mind:
 - Add answers with the tag "correct" to the answer array
 - Check for duplicates before creating a pull request
 
+### Question Database
+The questions and answers are stored in the file `src/data.json.js`.
+
