@@ -2292,6 +2292,30 @@ export const data ={
                 }
             ]
         },
+        {
+            "id": 106,
+            "question": "Three pillars of Scrum are",
+            "answers": [
+                {
+                    "answer": "Transparency, Inspection, Velocity",
+                    "correct": "False"
+                },
+                {
+                    "answer": "Transparency, Inspection, Adaption",
+                    "correct": "True"
+                },
+                {
+                    "answer": "Transparency, Empiricism, Velocity",
+                    "correct": "False"
+                },
+                {
+                    "answer": "Transparency, Inspection, Retrospectives",
+                    "correct": "false"
+                },
+            ]
+        },
+        
+        
 
 
 
